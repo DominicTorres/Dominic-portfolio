@@ -4,22 +4,36 @@ Author: Dominic Torres
 Date: 11/6/19
 */
 
-
-/*body styles*/
+/*html styles and body styles*/
 body{
     margin: 40px;
     background-color: rgb(255, 228, 154);
 }
-div.boxes{
+
+/*header styles*/
+
+
+
+/*div class boxes styles*/
+nav div.boxes{
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-gap: 10px;
     background-color: rgb(255, 228, 154);
-    color: #444;
+    color: rgb(70, 70, 70);
+    text-align: center;
+    display: block;
 }
-  
+
+nav div.boxes{
+    clear: both;
+    content: "";
+    display: absolute;
+}
+
+/*div a styles*/
 div.aboutme{
-    background-color: #444;
+    background-color: rgb(70, 70, 70);
     color: white;
     border-radius: 5px;
     padding: 20px;
@@ -27,7 +41,7 @@ div.aboutme{
 }
 
 div.recentwork{
-    background-color: #444;
+    background-color: rgb(70, 70, 70);
     color: white;
     border-radius: 5px;
     padding: 20px;
@@ -35,7 +49,7 @@ div.recentwork{
 }
 
 div.skills{
-    background-color: #444;
+    background-color: rgb(70, 70, 70);
     color: white;
     border-radius: 5px;
     padding: 20px;
@@ -43,9 +57,15 @@ div.skills{
 }
 
 div.contact{
-    background-color: #444;
+    background-color: rgb(70, 70, 70);
     color: white;
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
 }
+/*Box shadows*/
+
+
+
+
+
