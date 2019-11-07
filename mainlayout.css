@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*
+Author: Dominic Torres
+Date: 11/6/19
+*/
+
+
+/*body styles*/
+body{
+    margin: 40px;
+    background-color: rgb(255, 228, 154);
+}
+div.boxes{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: rgb(255, 228, 154);
+    color: #444;
+}
+  
+div.aboutme{
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+div.recentwork{
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+div.skills{
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+div.contact{
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
