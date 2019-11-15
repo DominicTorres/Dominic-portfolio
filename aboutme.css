@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*
+Author: Dominic Torres
+Date: 11/6/19
+*/
+
+/*Header and p styles*/
+h1{
+    text-shadow: rgb(221, 221, 221) 1px 1px 0px,
+    rgba(41, 41, 41, 0.9) 5px 5px 20px;
+    text-align: center;
+}
+
+p{
+    text-shadow: rgba(41, 41, 41, 0.9) 1px 1px 0px,
+    rgb(221, 221, 221) 5px 5px 20px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 22px;
+}
+
+/*Footer styles*/
+footer{
+    display: block;
+    text-align: center;
+    background:white;
+}
